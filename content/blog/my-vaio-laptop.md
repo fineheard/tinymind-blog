@@ -3,10 +3,6 @@ title: My VAIO Laptop
 date: 2026-04-22T02:17:32.372Z
 ---
 
-
-
-
-
 **PowerShell**
 ```
 Get-ComputerInfo | Select-Object OsName, OsVersion, OsBuildNumber, OsArchitecture, WindowsInstallationType, CsProcessors, CsTotalPhysicalMemory, CsSystemType, BiosBIOSVersion, CsManufacturer, CsModel
@@ -116,7 +112,6 @@ EOF
 
 **Result**
 ```
-
 OsName                  : Fedora Linux 43 (Workstation Edition)
 OsVersion               : 6.17.1-300.fc43.x86_64
 OsBuildNumber           : #1
@@ -129,5 +124,3 @@ BiosBIOSVersion         : R0481HF
 CsManufacturer          : VAIO Corporation
 CsModel                 : VJS4R1
 ```
-
-
